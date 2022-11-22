@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imagenjesuitas"
+        android:layout_width="122dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="196dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/jesuitas_logo" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="126dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="208dp"
+        android:text="@string/webjesuitas"
+        app:layout_constraintStart_toEndOf="@+id/imagenjesuitas"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imagenracima"
+        android:layout_width="81dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagenjesuitas"
+        app:srcCompat="@drawable/logo_racima_acceso" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="117dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/racima"
+        app:layout_constraintStart_toEndOf="@+id/imagenracima"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <ImageView
+        android:id="@+id/imagenmodle"
+        android:layout_width="75dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagenracima"
+        app:srcCompat="@drawable/moodle" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="126dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/moodle"
+        app:layout_constraintStart_toEndOf="@+id/imagenmodle"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+</androidx.constraintlayout.widget.ConstraintLayout>
